@@ -1,6 +1,6 @@
 # Mục lục skill làm video — pipelinex-video-skills
 
-Tổng cộng 74 skill trong thư mục `skills/`, đồng bộ từ thư viện skill local ngày 2026-11-26.
+Tổng cộng 75 skill trong thư mục `skills/`, đồng bộ từ thư viện skill local ngày 2026-11-26.
 Mỗi skill giữ nguyên các file SOURCE.md / LICENSE / attribution đi kèm.
 
 | # | Skill | Công dụng | Giấy phép |
@@ -79,5 +79,6 @@ Mỗi skill giữ nguyên các file SOURCE.md / LICENSE / attribution đi kèm.
 | 72 | [rea-video](skills/rea-video/SKILL.md) | 逆向拆解一条视频是怎么做出来的——逐镜头判断实拍 / 影视片段 / AI 生成 / 3D 渲染 / 2D 动画 / 定格动画 / 代码模板渲染 / 录屏截图 / 静态图推拉 / 静帧，以及实拍是否经过 AI 加工（换脸、对口型、风格化），标出后期叠加层（逐句字幕时间轴、花字、标题、贴纸 / GIF / 表情包、画... | Apache-2.0 |
 | 73 | [ask-emil](skills/ask-emil/SKILL.md) | Ask which skill or flow fits your situation. A router over the skills in this repo. | MIT |
 | 74 | [bo_cong_cu_animation_web](skills/bo_cong_cu_animation_web/SKILL.md) | — | — |
+| 75 | [open-motion-techniques](skills/open-motion-techniques/SKILL.md) | Chưng cất kỹ thuật từ OpenMotion (MIT): Motion Critique 4 chiều với cổng cứng nhấp nháy dưới 3 lần/giây, bảng trục Variation Engine, ánh xạ Freytag 5 hồi cho template Remotion của kênh | MIT |
 
 Ghi chú: file nhị phân (ảnh/gif/mp4/xlsx) trong skill `muse-video-skill` không đồng bộ qua GitHub MCP do giới hạn text-only của push_files; xem báo cáo đồng bộ.

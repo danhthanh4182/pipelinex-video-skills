@@ -1,0 +1,4 @@
+Source: https://github.com/Yuan-ManX/open-motion — "OpenMotion", an AI-native motion runtime (TypeScript codebase), evaluated 2026-11-26.
+License: MIT (see LICENSE in this folder; Copyright (c) 2026 Yuan-Man)
+Installed: 2026-11-26. Distilled-techniques install ONLY: this folder contains an original distillation (SKILL.md) written for the channel's Remotion pipeline, covering Motion Critique, the Variation Engine axes, and Freytag motion storytelling, plus Motion DNA and Motion Auto-Fix as reference frameworks. The OpenMotion runtime itself was NOT installed, copied, or executed — it is a standalone TypeScript runtime, not a SKILL.md pack, and the earlier evaluation concluded it cannot be adopted as-is.
+The channel owner approved applying the three distilled techniques to the running template batches on 2026-11-26 (22:26 ICT). Do not confuse this repo with nexu-io/openmotion, a different project.
