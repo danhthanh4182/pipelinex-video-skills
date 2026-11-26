@@ -1,0 +1,5 @@
+name: "ky_thuat_mau_diepykien"
+title: "Kỹ thuật mẫu tham chiếu @diepykien (tài liệu hoá, chưa áp dụng)"
+description: "Tài liệu kỹ thuật đầy đủ về video mẫu TikTok của @diepykien — mẫu gốc của template Kinetic: cấu trúc 8 chương, nhịp cắt, chữ động (highlight quét lũy tiến, gạch ngang sửa sai, nhãn stamp), header tiến độ chương, thẻ số chương, mock UI, checklist phán quyết, thanh meter, thẻ kết — kèm thông số dựng lại và bảng đối chiếu với template Kinetic của kênh. CHỈ THAM CHIẾU: không tự ý tích hợp vào template đang chạy; chỉ áp dụng khi có lệnh riêng của người dùng."
+category: "Work and knowledge"
+include_in_prompt: false

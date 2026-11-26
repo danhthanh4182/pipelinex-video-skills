@@ -1,0 +1,5 @@
+name: "bo_cong_cu_animation_web"
+title: "Bộ công cụ animation web và video"
+description: "Tra cứu và dùng bộ thư viện animation web đã kiểm chứng và cài sẵn tại animation-toolkit (anime.js, react-spring, PixiJS, p5.js, matter-js, D3, Motion Canvas, Three.js, Lottie, Tone.js) cùng bộ skill Remotion, và biết rõ Blender, RIFE, MusicGen chưa cài vì sao."
+category: "Work and knowledge"
+include_in_prompt: false

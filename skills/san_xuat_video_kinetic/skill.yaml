@@ -1,0 +1,5 @@
+name: "san_xuat_video_kinetic"
+title: "Sản xuất video Kinetic Explainer cho Điểm Tin Công Nghệ"
+description: "Quy trình trọn gói dựng video tin tức theo template Kinetic Explainer đã chốt cho kênh Điểm Tin Công Nghệ / space Sản xuất Video: kịch bản từ claim đã kiểm chứng, giọng đọc cấu hình được (VieNeu/Kokoro), căn mốc từ bằng Whisper, 8 biến thể + preset theo mảng của news.danhthanh.dev, chuẩn âm thanh, QC bắt buộc và ghi nhận vào space."
+category: "Work and knowledge"
+include_in_prompt: false
