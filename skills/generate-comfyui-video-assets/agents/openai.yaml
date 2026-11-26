@@ -1,0 +1,13 @@
+interface:
+  display_name: Generate ComfyUI Video Assets
+  short_description: Generate and package repeatable ComfyUI visuals
+  default_prompt: Use $generate-comfyui-video-assets on my next PipelineX video.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

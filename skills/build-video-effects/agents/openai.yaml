@@ -1,0 +1,13 @@
+interface:
+  display_name: Build Video Effects
+  short_description: Create reusable PixelFX and EffectCraft assets
+  default_prompt: Use $build-video-effects on my next PipelineX video.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

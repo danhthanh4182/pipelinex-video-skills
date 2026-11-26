@@ -1,0 +1,13 @@
+interface:
+  display_name: Direct Continuous Launch Videos
+  short_description: Plan launch films and review continuous motion
+  default_prompt: Use $direct-continuous-launch-videos for my next PipelineX video.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

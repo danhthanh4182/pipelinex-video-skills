@@ -1,0 +1,13 @@
+interface:
+  display_name: PipelineX Video Studio
+  short_description: Produce and review videos in PipelineX
+  default_prompt: Use $pipelinex-video-studio to help create my next video.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

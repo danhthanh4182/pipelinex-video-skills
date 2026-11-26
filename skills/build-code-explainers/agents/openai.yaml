@@ -1,0 +1,13 @@
+interface:
+  display_name: Build Code Explainers
+  short_description: Create narrated explainers from verified editorial beats
+  default_prompt: Use $build-code-explainers for my next PipelineX video.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

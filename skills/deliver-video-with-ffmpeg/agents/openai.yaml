@@ -1,0 +1,13 @@
+interface:
+  display_name: Deliver Video with FFmpeg
+  short_description: Inspect, conform and export final media with FFmpeg
+  default_prompt: Use $deliver-video-with-ffmpeg on my next PipelineX video.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

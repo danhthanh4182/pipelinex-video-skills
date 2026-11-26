@@ -1,0 +1,14 @@
+interface:
+  display_name: Video Motion Direction
+  short_description: Plan storyboards, transitions, and caption reviews
+  default_prompt: Use $direct-video-motion to storyboard my next explainer or launch
+    video.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

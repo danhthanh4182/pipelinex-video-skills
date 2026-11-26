@@ -1,0 +1,13 @@
+interface:
+  display_name: Analyze Video References
+  short_description: Turn reference footage into an original shot plan
+  default_prompt: Use $analyze-video-references on my next PipelineX video.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

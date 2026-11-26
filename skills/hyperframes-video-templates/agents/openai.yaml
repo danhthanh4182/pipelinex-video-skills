@@ -1,0 +1,13 @@
+interface:
+  display_name: HyperFrames Video Templates
+  short_description: Build HTML video templates with HyperFrames
+  default_prompt: Use $hyperframes-video-templates to help create my next video.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

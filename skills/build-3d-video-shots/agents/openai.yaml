@@ -1,0 +1,13 @@
+interface:
+  display_name: Build 3D Video Shots
+  short_description: Build Three.js and Blender shots for video
+  default_prompt: Use $build-3d-video-shots on my next PipelineX video.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

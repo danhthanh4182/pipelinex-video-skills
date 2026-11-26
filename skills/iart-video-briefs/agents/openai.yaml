@@ -1,0 +1,13 @@
+interface:
+  display_name: iArt Video Briefs
+  short_description: Prepare motion graphics briefs for iArt
+  default_prompt: Use $iart-video-briefs to help create my next video.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

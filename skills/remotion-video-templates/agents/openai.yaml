@@ -1,0 +1,13 @@
+interface:
+  display_name: Remotion Video Templates
+  short_description: Build data-driven Remotion video templates
+  default_prompt: Use $remotion-video-templates to help create my next video.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
