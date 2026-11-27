@@ -3,6 +3,21 @@
 Cập nhật ngày 27/11/2026. Mỗi skill nằm trong một thư mục riêng dưới `skills/`, với `SKILL.md`, cấu hình hiển thị và tài nguyên đi kèm nếu có. Nội dung workflow giữ nguyên tiếng Anh. Hướng dẫn cài đặt này dùng tiếng Việt.
 
 [![skills.sh](https://skills.sh/b/danhthanh4182/pipelinex-video-skills)](https://skills.sh/danhthanh4182/pipelinex-video-skills)
+![skills](https://img.shields.io/badge/skills-75-blue)
+
+## Mục lục
+
+- [Cài bằng Skills CLI](#cài-bằng-skills-cli)
+- [Kiến trúc tuyến sản xuất](#kiến-trúc-tuyến-sản-xuất)
+- [Cấu trúc repo](#cấu-trúc-repo)
+- [Danh sách 75 skill](#danh-sách-75-skill)
+  - [Điều phối & sản xuất của kênh](#điều-phối--sản-xuất-của-kênh)
+  - [Remotion](#remotion)
+  - [GSAP & animation web](#gsap--animation-web)
+  - [Kỹ thuật motion & mẫu](#kỹ-thuật-motion--mẫu)
+  - [Dựng cảnh, hiệu ứng & hậu kỳ](#dựng-cảnh-hiệu-ứng--hậu-kỳ)
+- [Giấy phép](#giấy-phép)
+- [Thêm skill mới](#thêm-skill-mới)
 
 ## Cài bằng Skills CLI
 
@@ -26,6 +41,36 @@ npx skills list
 ```
 
 Lệnh dùng được trong PowerShell và WSL. Thêm `--global` nếu muốn cài cho mọi dự án của môi trường đang chạy. Mở dự án trong Codex và gọi `$pipelinex-video-studio` để bắt đầu. [Tài liệu Skills CLI](https://www.skills.sh/docs/cli)
+
+## Kiến trúc tuyến sản xuất
+
+Các skill trong repo xếp theo đúng các chặng của tuyến sản xuất video của kênh Điểm Tin Công Nghệ. Skill điều phối `pipelinex-video-studio` (và bản vận hành cho kênh `san_xuat_video_kinetic`) gọi các nhóm skill còn lại theo chặng:
+
+```mermaid
+flowchart LR
+    A["Bài đã duyệt<br/>News Studio"] --> B["Điều phối<br/>pipelinex-video-studio"]
+    B --> C["Kịch bản & phân cảnh<br/>direct-video-motion · build-code-explainers<br/>iart-video-briefs · analyze-video-references"]
+    C --> D["Giọng đọc<br/>TTS + căn mốc từ (Whisper)"]
+    D --> E["Dựng hình<br/>Remotion · HyperFrames · GSAP"]
+    E --> F["Kỹ thuật motion<br/>iart packs · open-motion-techniques<br/>kinetic-typography · caption-animation"]
+    F --> G["Kiểm duyệt QC<br/>stills · Motion Critique"]
+    G --> H["Hậu kỳ & giao file<br/>deliver-video-with-ffmpeg"]
+    H --> I["Đăng đa kênh<br/>YouTube · Facebook · Instagram<br/>Threads · TikTok · Bluesky"]
+```
+
+## Cấu trúc repo
+
+```text
+pipelinex-video-skills/
+├── README.md             # Tài liệu này
+├── SKILLS.md             # Mục lục đầy đủ kèm giấy phép từng skill
+├── IART-ATTRIBUTION.md   # Ghi nhận nguồn các pack iart-ai
+└── skills/
+    └── <ten-skill>/
+        ├── SKILL.md      # Nội dung workflow của skill
+        ├── SOURCE.md     # Nguồn gốc của skill
+        └── ...           # LICENSE, tài nguyên, scripts đi kèm nếu có
+```
 
 ## Danh sách 75 skill
 
@@ -131,4 +176,12 @@ Lệnh dùng được trong PowerShell và WSL. Thêm `--global` nếu muốn c�
 
 Gói gồm các skill và tài nguyên của chúng. Các template mã nguồn PipelineX và ứng dụng bên thứ ba dùng bản phân phối riêng.
 
-Mục lục đầy đủ kèm giấy phép từng skill: [SKILLS.md](SKILLS.md). Ghi nhận nguồn các pack iart-ai: [IART-ATTRIBUTION.md](IART-ATTRIBUTION.md).
+## Giấy phép
+
+Mỗi skill giữ giấy phép gốc của nó — xem cột giấy phép trong [SKILLS.md](SKILLS.md) và file `SOURCE.md` / `LICENSE` trong thư mục từng skill. Ghi nhận nguồn các pack iart-ai: [IART-ATTRIBUTION.md](IART-ATTRIBUTION.md).
+
+## Thêm skill mới
+
+1. Skill phải có `SOURCE.md` ghi rõ nguồn gốc và file `LICENSE` nguyên văn của nguồn; nguồn không rõ thì không nhận.
+2. Thêm thư mục vào `skills/`, cập nhật mục lục [SKILLS.md](SKILLS.md) và bảng danh sách trong README này (kèm số lượng tổng).
+3. Đẩy lên bằng cùng quy trình đồng bộ của repo và đọc lại từ GitHub để kiểm chứng.
